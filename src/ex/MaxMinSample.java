@@ -1,5 +1,7 @@
 package ex;
 
+import java.util.Arrays;
+
 public class MaxMinSample
 {
     public static void main(String[] args) {
@@ -15,6 +17,9 @@ public class MaxMinSample
                 min = num;               //最小値の処理
             }
         }
+        //配列の内容を表示
+        //https://docs.oracle.com/javase/jp/11/docs/api/java.base/java/util/Arrays.html#toString(int%5B%5D)
+        System.out.println(Arrays.toString(array));
         System.out.println("最大値は" + max + "です。");
         System.out.println("最小値は" + min + "です。");
     }
